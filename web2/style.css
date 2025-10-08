@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left,rgb(0, 238, 255) 0%, rgb(204, 0, 255) 80%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+header, li, a{
+    font-size: 1.3rem;
+}
+
+
+.navbar li{
+    list-style: none;
+    
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 6px 10px;
+    color: rgb(255, 255, 255);
+    margin: 10px 20px;
+    transition: all 0.3 ease-in 0s;
+    /* transition: scale 0.3 ease-in 0s; */
+}
+
+.nav1:hover{
+    background-color: rgb(0, 238, 255);
+    border-radius: 15px;
+    color: black;
+}
+
+.nav2:hover {
+    background: linear-gradient(to left, rgb(0, 238, 255) 0%, rgb(204, 0, 255) 80%);
+    border-radius: 15px;
+    color: black;
+}
+
+/* .navbar li a:hover{
+    text-decoration: dashed;
+    background-color: aqua;
+    border-radius: 15px;
+    color: black;
+    /* transform: scale(1.2); */
+
+
+.cta button {
+    font-size: 1.3rem;
+    border: 0;
+    background:linear-gradient(rgb(225, 0, 255),rgb(0, 227, 235));
+    padding: 5px 10px;
+    color: white;
+}
+

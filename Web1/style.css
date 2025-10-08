@@ -1,0 +1,277 @@
+@font{
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 232, 226);
+}
+
+nav ,li a {
+    font-size: 1.3rem;
+    border: 10px 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.logo{
+    border-style: outset;
+    font-size: 1.8rem;
+    color: rgb(110, 167, 26);
+    cursor: pointer;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 6px 10px;
+    color: black;
+    margin: 10px 10px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.navbar li a:hover{
+    background-color: rgb(10, 161, 10);
+    color: white;
+    transition: all 0.2s ease-in 0s;
+}
+
+
+.cta button{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in 0s;
+    padding: 6px 10px;
+    border: 0px;
+    background-color: rgb(10, 161, 10);
+    color: white;
+}
+
+/* hero sectiob */
+
+.hero-section{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section h1, p, a{
+    margin-left: 30px;
+}
+
+
+.hero-section h1{
+    font-size: 6rem;
+    width: 100vh;
+    color: rgb(116, 167, 39);
+}
+
+.hero-section p {
+    font-size: 0.9rem;
+    width: 100vh;
+    color: rgba(0, 0, 0, 0.692);
+    margin-top: 10px;
+}
+
+.hero-section button{
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+.image{
+    width: 30%;
+    position: absolute;
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.side1-image{
+    width: 25vh;
+    right: 23%;
+    top: 1%;
+}
+
+.side2-image {
+    width: 25vh;
+    right: -8%;
+    top: 30%;
+}
+
+.side3-image {
+    width: 25vh;
+    right: 23%;
+    top: 60%;
+}
+
+.animation{
+    transition: all 0.3s ease-in 0s;
+}
+
+.animation:hover{
+    transform: scale(1.2);
+    /* transform: rotate(20deg); */
+
+}
+
+
+/* social section  */
+
+.social-section{
+    background-color: rgb(172, 164, 155);
+    background-image: url(back.jpg);
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+        /* border: 3px solid red; */
+}
+
+/* .social-section h2{
+    align-self: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+.social-section p{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1%;
+    padding: 0px 5px;
+}
+    /*  */
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    /* border: 1px solid; */
+} 
+
+.social-section h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    width: 70%;
+    padding: 25px 40px;
+    align-self: center;
+    margin-top: 4%;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.social-section h2 span{
+    background-color: rgb(33, 230, 7);
+    display: inline-block;
+    padding:  10px;
+    border-radius: 4px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.body_section{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.body_section h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 10px 10px;
+    height: 9vh;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.body_section #fp{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: dashed;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card img{
+    width: 80%;
+    height: 80%;
+}
+
+.card h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.card p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px 10px; 
+    margin-top: 1.5%;
+}
+
+.body_section a button{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in 0s;
+    padding: 6px 10px;
+    border: 0px;
+    background-color: rgb(10, 161, 10);
+    color: white;
+    width: 200px; ;
+    height: 50px;
+}
+
+.body_section a {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-decoration: none;
+}

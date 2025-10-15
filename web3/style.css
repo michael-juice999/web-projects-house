@@ -37,6 +37,7 @@ header{
     bottom: 0;
 }
 
+
 .logo{
     font-size: 1.7rem;
     color: white;
@@ -156,6 +157,7 @@ header li a{
 
 .card:hover{
     transform: translateY(-10px);
+    background-color: rgba(0, 0, 0, 0.123);
 }
 
 
@@ -240,3 +242,198 @@ header li a{
     left: 100px;
     margin-bottom: 5%;
 }
+
+
+.social-section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 20p;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    border: 1px solid;
+    width: 40vw;
+    height: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.box1:hover{ 
+    transform: translateY(-10px);
+    background-color: rgba(0, 0, 0, 0.123);
+
+}
+
+.box1 h2{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+}
+
+.box1 p{
+    padding: 7px 12px;
+    text-align: start;
+}
+
+.box1 span{
+    font-size: 1.6rem;
+    color: #333;
+}
+
+/* footer{
+     width: 100vw;
+    height: 100vh;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px 30px;
+
+}
+
+.f1{
+    margin-left: 20px;
+    width: 40%;
+    border: 1px solid blue;
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.f2 {
+    margin-left: -40%;
+    width: 40%;
+    border: 1px solid red;
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 60%;   
+}
+
+.f3 {
+    margin-left: 20px;
+    width: 40%;
+    border: 1px solid yellow;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+ 
+.f4 {
+    margin-left: -40%;
+    width: 40%;
+    border: 1px solid greenyellow;
+    padding: 10px 10px;
+    text-align: center;
+    grid-row-start: 0;
+    grid-column-start: ;
+    
+} */
+
+
+footer{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.footer-nav{
+    padding: 4px 10px;
+    width: 40%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.footer-nav li {
+    list-style: none;
+    
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav li a {
+    margin: 0 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: rgb(0, 0, 0);
+}
+
+.line{
+    margin-top: 10%;
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    height: 10px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+
+
+.baseline p{
+    width: 45%;
+    margin-left: 5%;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+
+}
+
+.line2{
+    display: flex;
+    position: absolute;
+    left: 70%;
+    width: 23%;
+    height: 50vh;
+    top: 0%;
+    background-color: #53c412;
+}
+
+
+
+
+
+/* media qurries */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+
+    .navbar li a {
+            font-size: 0.9rem;
+        }
+    
+        header .cta button {
+            font-size: 0.9rem;
+            padding: 6px 15px;
+            /* Also reduce padding */
+        }
+    
+        header .logo {
+            font-size: 0.9rem;
+        }
+
+        .hero_section h1 {
+            font-size: 2.5rem;
+            width: 80%;
+        }
+
+        .her_section p{
+            font-size: 0.9rem;
+            width: 85%;
+        }
+
+}
+/* Mobile landscape */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Mobile portrait */
+@media screen and (max-width: 480px) {}

@@ -1,0 +1,262 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.356);
+    /* optional: adds a semi-transparent background */
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+
+.logo {
+    font-size: 1.7rem;
+    color: white;
+    cursor: pointer;
+}
+
+header li a {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    margin: 0 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+    ;
+}
+
+
+.cta button {
+    padding: 8px 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta button:hover {
+    background: rgb(200, 200, 200);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 60px;
+    position: relative;
+}
+
+
+.hero h1 {
+    font-size: 6rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+    width: 70%;
+}
+
+
+.hero p {
+    width: 50%;
+    color: rgb(0, 0, 0);
+}
+
+.hero img {
+    position: absolute;
+    width: 40%;
+    left: 55%;
+}
+
+.section2 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.section2 .side1 {
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.side1 h2 {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.side1 p {
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.side1 #p2 {
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 1rem;
+}
+
+.section2 .side2 {
+    width: 50%;
+    height: 60vh;
+    background-color: #ffffff;
+}
+
+
+.side2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 40px;
+}
+
+.side2 .item {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000017;
+    border-style:groove;
+}
+
+.side2 .item h3{
+    font-size: 1.5rem;
+}
+
+.side2 .item p {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.section3{
+    width: 100%;
+    height: 80vh;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    padding: 70px 50px;
+}
+
+.place .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000017;
+    width: auto;
+    height: 17rem;
+}
+
+.place .item h3 {
+    font-size: 1.2rem;
+}
+
+.place .item p {
+    font-size: 1rem;
+    color: #000000d0;
+    font-weight: 400;
+    padding: 5px 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.place img{
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.mid{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-top: 90px;
+}
+
+.mid h1{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.mid p{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    padding-left: 5px;
+}
+
+.mid img {
+    position: absolute;
+    width: 40%;
+    left: 5%;
+}
